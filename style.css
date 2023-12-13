@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Black+Ops+One&family=Cabin&family=Caveat&family=Libre+Baskerville&family=Outfit:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'outfit', sans-serif;
+    background-color: #0d192b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 20px 10px;
+    padding: 20px;
+    background-color: #14253d;
+    border-radius: 16px;
+}
+
+.img-t img {
+    width: 100%;
+    display: block;
+}
+
+.img-t {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-view {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0ccfc9a1;
+    display: none;
+
+}
+
+.img-view img {
+    position: absolute;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-t:hover .img-view {
+    display: block;
+}
+
+.text a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 20px 0;
+    display: inline-block;
+
+}
+
+.text a:hover {
+    color: #00fff7;
+}
+
+p {
+    color: #8bacda;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.eth,
+.clock {
+    display: flex;
+    align-items: center;
+}
+
+.eth p {
+    color: #00fff7;
+    font-weight: 600;
+    padding-left: 6px;
+}
+
+.clock p {
+    padding-left: 6px;
+}
+
+hr {
+    border-color: #2f415b;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.avatar p a {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.avatar img {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    margin-right: 15px;
+}
